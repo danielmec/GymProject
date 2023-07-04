@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{59727FAB-FD4A-4BA1-A44B-E089D20D4D4C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GymProject/VisualizzaEsercizi.xaml.cs">
+    <Files>
+      <File FileName="GymProject/VisualizzaEsercizi.xaml" />
+      <File FileName="GymProject/VisualizzaEsercizi.xaml.cs" Line="84" Column="35" />
+      <File FileName="GymProject/PrenotaAttrezzature.xaml.cs" />
+      <File FileName="GymProject/PrenotaAttrezzature.xaml" />
+      <File FileName="GymProject/CreaS.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GymProject" expanded="True">
+            <Node name="GymProject" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="CreaS.xaml" expanded="True" />
+              <Node name="HomeUser.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="PrenotaAttrezzature.xaml" expanded="True" />
+              <Node name="Registrazione.xaml" expanded="True" />
+              <Node name="RegistrazioneM.xaml" expanded="True" />
+              <Node name="RichiesteSchede.xaml" expanded="True" />
+              <Node name="VisualizzaEsercizi.xaml" expanded="True">
+                <Node name="VisualizzaEsercizi.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.28287DB8-ACD4-4043-AF1E-0093FE81298C" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GymProject PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.28287DB8-ACD4-4043-AF1E-0093FE81298C" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymProject.HomeUser"
+             BackgroundColor="Black"
+             Title="HomeUser">
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Start">
+    <Label x:Name="titolo" Text="Benvenuto " Margin="0,20,0,20" FontSize="20" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Orange" />
+         <Image Source="logogym.png" WidthRequest="250" Margin="0,0,0,60" HeightRequest="250" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+        <Button Text="Prenota Attrezzature" BackgroundColor="Orange" TextColor="Black" Margin="5" Clicked="PrenotaAttrezzatureButton_Clicked" />
+        <Button Text="Richiedi Scheda" BackgroundColor="Orange" TextColor="Black" Margin="5" Clicked="RichiediSchedaButton_Clicked" />
+    </StackLayout>
+</VerticalStackLayout>
+
+</ContentPage>

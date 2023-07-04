@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GymProject
+build_property.ProjectDir = /Users/danielmeco/Projects/GymProject/GymProject/
+
+[/Users/danielmeco/Projects/GymProject/GymProject/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/CreaS.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.CreaS.xaml
+build_metadata.AdditionalFiles.TargetPath = CreaS.xaml
+build_metadata.AdditionalFiles.RelativePath = CreaS.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/HomeUser.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.HomeUser.xaml
+build_metadata.AdditionalFiles.TargetPath = HomeUser.xaml
+build_metadata.AdditionalFiles.RelativePath = HomeUser.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/PrenotaAttrezzaturePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.PrenotaAttrezzaturePage.xaml
+build_metadata.AdditionalFiles.TargetPath = PrenotaAttrezzaturePage.xaml
+build_metadata.AdditionalFiles.RelativePath = PrenotaAttrezzaturePage.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/Registrazione.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.Registrazione.xaml
+build_metadata.AdditionalFiles.TargetPath = Registrazione.xaml
+build_metadata.AdditionalFiles.RelativePath = Registrazione.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/RegistrazioneM.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.RegistrazioneM.xaml
+build_metadata.AdditionalFiles.TargetPath = RegistrazioneM.xaml
+build_metadata.AdditionalFiles.RelativePath = RegistrazioneM.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/RichiediSchedaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.RichiediSchedaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RichiediSchedaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RichiediSchedaPage.xaml
+
+[/Users/danielmeco/Projects/GymProject/GymProject/RichiesteSchede.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GymProject.RichiesteSchede.xaml
+build_metadata.AdditionalFiles.TargetPath = RichiesteSchede.xaml
+build_metadata.AdditionalFiles.RelativePath = RichiesteSchede.xaml

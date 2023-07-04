@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymProject.Registrazione"
+             BackgroundColor="#121212"
+             Title="Registrazione">
+  <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="15">
+            <Image Source="logogym.png" WidthRequest="250" HeightRequest="250" />
+            <Entry x:Name="NomeEntry" Placeholder="Nome" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40" />
+
+            <Entry x:Name="CognomeEntry"  Placeholder="Cognome" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40" />
+
+            <Entry x:Name="DataNascitaEntry" Placeholder="Data di nascita" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40" />
+
+            <Entry x:Name="EmailEntry" Placeholder="Email" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40" />
+
+            <Entry x:Name="PasswordEntry" Placeholder="Password" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40" IsPassword="True" />
+
+            <Entry x:Name="ConfermaPasswordEntry" Placeholder="Conferma password" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40" IsPassword="True" />
+
+            <Button Text="Registrati" BackgroundColor="#FFA500" TextColor="White" WidthRequest="150" HeightRequest="40" Clicked="OnRegistraClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

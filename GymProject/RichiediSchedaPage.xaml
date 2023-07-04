@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymProject.RichiediSchedaPage"
+             BackgroundColor="#121212"
+             Title="RichiediSchedaPage">
+   <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="15">
+            <Image Source="logogym.png" WidthRequest="250" HeightRequest="250" />
+            <Entry x:Name="EmailEntry" Placeholder="Email"  IsReadOnly="True" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40"/>
+
+            <Entry x:Name="TipoEntry"  Placeholder="Tipo" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40"/>
+
+            <Entry x:Name="DescrizioneEntry" Placeholder="Descrizione" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40"/>
+
+            <Entry x:Name="EtaEntry" Placeholder="Eta"  Keyboard="Numeric" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40"/>
+
+            <Entry x:Name="PesoEntry" Placeholder="Peso" Keyboard="Numeric" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40"/>
+
+            <Entry x:Name="AltezzaEntry" Placeholder="Altezza" Keyboard="Numeric" PlaceholderColor="#FFA500" TextColor="White" BackgroundColor="#1E1E1E" WidthRequest="300" HeightRequest="40"/>
+
+            <Button Text="Invia" BackgroundColor="#FFA500" TextColor="White" WidthRequest="150" HeightRequest="40" Clicked="OnInviaClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

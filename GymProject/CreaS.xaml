@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymProject.CreaS"
+             Title="CreaS">
+    <ScrollView>
+<StackLayout BackgroundColor="Black" Padding="20" Spacing="10">
+  
+        <Frame BackgroundColor="Orange" Padding="10" CornerRadius="10" BorderColor="Black">
+    <StackLayout BackgroundColor="Orange"  Orientation="Horizontal" HorizontalOptions="Center">
+        
+            <Label Text="Tipologia esercizio:" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" />
+            <Picker x:Name="TipoEsercizioPicker" Title="Scegli"   TextColor="Black" FontSize="16"   MinimumWidthRequest="150" HorizontalOptions="Center" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Panca alta </x:String>
+                        <x:String>Panca bassa</x:String>
+                        <x:String>Cardio </x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+
+    </StackLayout>
+            </Frame>
+
+<Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <!-- Prima metà sinistra dello schermo -->
+    <Frame Grid.Column="0" BackgroundColor="Orange" Padding="10" CornerRadius="10" WidthRequest="200" BorderColor="Black">
+        <!-- Contenuto del frame -->
+        <StackLayout BackgroundColor="Orange" Padding="10,0,10,0" HorizontalOptions="Center">
+            <Label Text="Numero Ripetizioni:"  FontSize="14" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Frame CornerRadius="10"  BackgroundColor="LightYellow" Padding="3" BorderColor="Black" >
+                    <Button Text="-" BorderColor="LightYellow" BackgroundColor="LightYellow" TextColor="Black" Clicked="DecrementButton_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="LightYellow" BorderColor="Black" Padding="3">
+                    <Label x:Name="RipetizioniLabel" Text="1" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="14" Padding="4" />
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="LightYellow" BorderColor="Black" Padding="3">
+                    <Button Text="+" BackgroundColor="LightYellow" TextColor="Black" Clicked="IncrementButton_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </Frame>
+
+    <!-- Seconda metà dello schermo -->
+    <Frame Grid.Column="1" BackgroundColor="Orange" Padding="10" CornerRadius="10" BorderColor="Black">
+        <!-- Contenuto del frame -->
+        <StackLayout BackgroundColor="Orange" Padding="10,0,10,0" HorizontalOptions="Center">
+            <Label Text="Numero Serie:" FontSize="14" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Frame CornerRadius="10" BorderColor="Black" BackgroundColor="LightYellow" Padding="3">
+                    <Button Text="-" BackgroundColor="LightYellow" TextColor="Black" Clicked="DecrementButton2_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+                <Frame CornerRadius="10" BorderColor="Black" BackgroundColor="LightYellow" Padding="3">
+                    <Label x:Name="DurataSerieLabel" Text="1" TextColor="Black" Padding="4" HorizontalOptions="Center" VerticalOptions="Center" FontSize="14" />
+                </Frame>
+                <Frame CornerRadius="10" BorderColor="Black" BackgroundColor="LightYellow" Padding="3">
+                    <Button Text="+" BackgroundColor="LightYellow" TextColor="Black" Clicked="IncrementButton2_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </Frame>
+</Grid>
+
+<Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <!-- Prima metà sinistra dello schermo -->
+    <Frame Grid.Column="0" BackgroundColor="Orange" Padding="10" CornerRadius="10" WidthRequest="200" BorderColor="Black">
+        <!-- Contenuto del frame -->
+        <StackLayout BackgroundColor="Orange" Padding="10,0,10,0" HorizontalOptions="Center">
+            <Label Text="Tempo Serie:"  FontSize="14" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Frame CornerRadius="10"  BackgroundColor="LightYellow" Padding="3" BorderColor="Black" >
+                    <Button Text="-" BorderColor="LightYellow" BackgroundColor="LightYellow" TextColor="Black" Clicked="DecrementButton3_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="LightYellow" BorderColor="Black" Padding="3">
+                    <Label x:Name="TempoSerie" Text="1" Padding="4" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="14" />
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="LightYellow" BorderColor="Black" Padding="3">
+                    <Button Text="+" BackgroundColor="LightYellow" TextColor="Black" Clicked="IncrementButton3_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </Frame>
+
+    <!-- Seconda metà dello schermo -->
+    <Frame Grid.Column="1" BackgroundColor="Orange" Padding="10" CornerRadius="10" BorderColor="Black">
+        <!-- Contenuto del frame -->
+        <StackLayout BackgroundColor="Orange" Padding="10,0,10,0" HorizontalOptions="Center">
+            <Label Text="Durata Recupero:" FontSize="14" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Frame CornerRadius="10" BorderColor="Black" BackgroundColor="LightYellow" Padding="3">
+                    <Button Text="-" BackgroundColor="LightYellow" TextColor="Black" Clicked="DecrementButton4_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+                <Frame CornerRadius="10" BorderColor="Black" BackgroundColor="LightYellow" Padding="3">
+                    <Label x:Name="DurataRecupero" Text="1" Padding="4" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="14" />
+                </Frame>
+                <Frame CornerRadius="10" BorderColor="Black" BackgroundColor="LightYellow" Padding="3">
+                    <Button Text="+" BackgroundColor="LightYellow" TextColor="Black" Clicked="IncrementButton4_Clicked" FontSize="24" WidthRequest="20" HeightRequest="20" />
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </Frame>
+</Grid>
+
+               <Frame BackgroundColor="Orange" Padding="10" CornerRadius="10" BorderColor="Black">
+    <StackLayout BackgroundColor="Orange"  Orientation="Horizontal" HorizontalOptions="Center">
+        
+            <Label Text="Priorita:" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" />
+            <Picker x:Name="Priorita" Title="Scegli"   TextColor="Black" FontSize="16"   MinimumWidthRequest="150" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Primo </x:String>
+                        <x:String>Successivo</x:String>
+                        <x:String>Ultimo </x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+
+    </StackLayout>
+            </Frame>
+
+      <Button Text="Aggiungi Esercizio" BackgroundColor="LightYellow" Clicked="AggiungiEsercizio_Clicked"  TextColor="Black" CornerRadius="10" WidthRequest="200" HeightRequest="50" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+      <Button Text="Vedi Esercizi" BackgroundColor="LightYellow" Clicked="VediEsercizi_Clicked"  TextColor="Black" CornerRadius="10" WidthRequest="200" HeightRequest="50" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+        <Button Text="Crea" BackgroundColor="OrangeRed" Clicked="CreaScheda_Clicked"  TextColor="Black" CornerRadius="10" WidthRequest="200" HeightRequest="50" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+</StackLayout>
+
+        </ScrollView>
+
+</ContentPage>
